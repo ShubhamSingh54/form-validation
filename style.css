@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#form-container{
+    background-color: aliceblue;
+    padding: 50px;
+    text-align: center;
+
+}
+h2{
+    margin: 0px 0px 10px 0px;
+}
+
+input{
+width: 200px;
+margin: 10px 0px;
+padding: 10px;
+border-color: black;
+}
+
+input[type="submit"]
+{
+   width:222px;
+   background-color: aqua; 
+   border: 3px;
+   border-color: black;
+}
+.error{
+    color:red;
+    margin:2px;
+    text-align: left;
+}
