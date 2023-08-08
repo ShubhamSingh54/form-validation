@@ -9,7 +9,7 @@ function validateform(){
         
     }
     else if(username.value.length <3){
-        document.getElementById("usererror").innerHTML="user name minimum 3 char";
+        document.getElementById("usererror").innerHTML="User name require min 3 char";
         flag1=0;
 
     }
@@ -20,7 +20,7 @@ function validateform(){
     }
     if(password.value == "")
     {
-        document.getElementById("passworderror").innerHTML="password  is  empty";
+        document.getElementById("passworderror").innerHTML="Password  is  Empty";
         flag2=0;
     }
     else{
